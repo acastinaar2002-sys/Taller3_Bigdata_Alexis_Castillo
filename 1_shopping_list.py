@@ -1,6 +1,6 @@
 def shopping_list() -> None:
 
-    shopping_list = ["Botella de Ron", "Botella de vodka", "Huevos", "Jugo de naranja", "Jugo de Cranberry"]
+    shopping_list = ["Botella de whisky", "Botella de vodka", "Huevos", "Jugo de naranja", "Jugo de Cranberry"]
     print("Lista de compras: ") 
     for product in shopping_list:
         print(product) 
