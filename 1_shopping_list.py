@@ -21,6 +21,14 @@ def shopping_list() -> None:
     print("\nLista actualizada:")
 
     for product in shopping_list:
-        print(product) 
+        print(product)
+
+    search_product = input("\nEscribe el nombre del producto que quieres buscar en la lista de compras: ") 
+
+    if search_product in shopping_list:
+        print(f"Este es el producto que buscabas: {search_product}") 
+    else: 
+        print("No encuentro ese producto")
+
 
 shopping_list()
